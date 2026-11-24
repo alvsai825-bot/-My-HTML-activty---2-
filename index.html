@@ -1,0 +1,1094 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DriveX – Premium Car Showroom | Find Your Dream Car</title>
+  <meta name="description" content="Explore India's leading car models, check specifications, compare vehicles, and book a free test drive at DriveX Premium Car Showroom. Built strictly with pure HTML5 and CSS3.">
+  
+  <!-- Google Fonts: Outfit & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <!-- Custom CSS3 Stylesheet (100% Pure CSS - No JavaScript) -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ========================================================
+       SECTION A: NAVIGATION BAR (Pure CSS Mobile Menu)
+       ======================================================== -->
+  <header class="site-header" id="header">
+    <div class="nav-container">
+      <!-- DriveX Brand Logo -->
+      <a href="#home" class="logo" aria-label="DriveX Home">
+        <span class="logo-icon"><i class="fa-solid fa-gauge-high"></i></span>
+        <span class="logo-text">Drive<span class="logo-accent">X</span></span>
+      </a>
+
+      <!-- Pure CSS Hamburger Checkbox Hack -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle-input" aria-label="Toggle Navigation">
+      <label for="nav-toggle" class="hamburger-btn" aria-label="Open Navigation Menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </label>
+
+      <!-- Navigation Menu -->
+      <nav class="nav-menu" id="navMenu">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#cars" class="nav-link">Cars</a></li>
+          <li class="nav-item"><a href="#features" class="nav-link">Features</a></li>
+          <li class="nav-item"><a href="#compare" class="nav-link">Compare Cars</a></li>
+          <li class="nav-item"><a href="#offers" class="nav-link">Offers</a></li>
+          <li class="nav-item"><a href="#test-drive" class="nav-link">Test Drive</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="mobile-cta">
+          <a href="#test-drive" class="btn btn-primary btn-sm mobile-book-btn">Book Test Drive</a>
+        </div>
+      </nav>
+
+      <!-- Header Action CTA -->
+      <div class="nav-actions">
+        <a href="#test-drive" class="btn btn-primary nav-cta-btn">
+          <i class="fa-solid fa-car-side"></i> Book Test Drive
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ========================================================
+         SECTION B: HERO SECTION
+         ======================================================== -->
+    <section class="hero-section" id="home">
+      <div class="hero-backdrop">
+        <img src="images/hero-car.jpg" alt="DriveX Premium Hyperion Car" class="hero-bg-img" id="heroBgImg">
+        <div class="hero-overlay"></div>
+      </div>
+      <div class="container hero-content">
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          <span>Welcome to DriveX Signature Auto Studio</span>
+        </div>
+        <h1 class="hero-title">
+          Find Your <span class="text-gradient">Dream Car</span>
+        </h1>
+        <p class="hero-subtitle">
+          Explore premium cars with style, comfort, and performance. Certified reliability, transparent deals, and unmatched driving thrills crafted for passionate drivers.
+        </p>
+        <div class="hero-buttons">
+          <a href="#cars" class="btn btn-primary btn-lg">
+            <span>Explore Cars</span>
+            <i class="fa-solid fa-arrow-right"></i>
+          </a>
+          <a href="#test-drive" class="btn btn-secondary btn-lg">
+            <i class="fa-regular fa-calendar-check"></i>
+            <span>Book a Test Drive</span>
+          </a>
+        </div>
+
+        <!-- Highlight Badges Strip -->
+        <div class="hero-highlights">
+          <div class="highlight-item">
+            <i class="fa-solid fa-shield-halved highlight-icon"></i>
+            <div>
+              <h4>150+ Checkpoints</h4>
+              <p>Rigorous Quality Inspection</p>
+            </div>
+          </div>
+          <div class="highlight-item">
+            <i class="fa-solid fa-indian-rupee-sign highlight-icon"></i>
+            <div>
+              <h4>Zero Down Payment</h4>
+              <p>Flexible Demo Financing</p>
+            </div>
+          </div>
+          <div class="highlight-item">
+            <i class="fa-solid fa-clock-rotate-left highlight-icon"></i>
+            <div>
+              <h4>Instant Test Drive</h4>
+              <p>Doorstep Delivery Available</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         SECTION C: ABOUT SHOWROOM
+         ======================================================== -->
+    <section class="about-section section-padding" id="about">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">About Showroom</span>
+          <h2 class="section-title">Redefining The Car Buying Experience</h2>
+          <p class="section-description">
+            At DriveX, we blend passion with automotive excellence. Whether you are seeking a city commuter, an all-terrain powerhouse, or a luxurious family cruiser, we bring you trusted mobility solutions with complete transparency.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Pillar 1 -->
+          <div class="about-card">
+            <div class="card-icon-box"><i class="fa-solid fa-award"></i></div>
+            <h3 class="card-title">Quality Vehicles</h3>
+            <p class="card-text">Every car passes a rigorous 150-point diagnostic inspection to ensure showroom-grade mechanical, safety, and aesthetic standards.</p>
+          </div>
+          <!-- Pillar 2 -->
+          <div class="about-card">
+            <div class="card-icon-box"><i class="fa-solid fa-handshake"></i></div>
+            <h3 class="card-title">Trusted Service</h3>
+            <p class="card-text">Fair pricing, zero hidden charges, and transparent consultation. We guide you step-by-step from test drive to seamless delivery.</p>
+          </div>
+          <!-- Pillar 3 -->
+          <div class="about-card">
+            <div class="card-icon-box"><i class="fa-solid fa-face-smile-beam"></i></div>
+            <h3 class="card-title">Customer Satisfaction</h3>
+            <p class="card-text">Over 5,000 delighted drivers trust DriveX for their journey. Dedicated relationship managers ensure you find your perfect fit.</p>
+          </div>
+          <!-- Pillar 4 -->
+          <div class="about-card">
+            <div class="card-icon-box"><i class="fa-solid fa-headset"></i></div>
+            <h3 class="card-title">Professional Support</h3>
+            <p class="card-text">From roadside assistance to complimentary warranty packages and priority service bays, specialists are always a call away.</p>
+          </div>
+        </div>
+
+        <!-- Showroom Statistics Banner -->
+        <div class="about-stats-banner">
+          <div class="stat-item">
+            <h3 class="stat-number">5,000+</h3>
+            <p class="stat-label">Happy Car Owners</p>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <h3 class="stat-number">150+</h3>
+            <p class="stat-label">Showroom Models</p>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <h3 class="stat-number">15+</h3>
+            <p class="stat-label">Years of Trust</p>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <h3 class="stat-number">99.4%</h3>
+            <p class="stat-label">Satisfaction Score</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         SECTION D: CAR MODELS SECTION (6 MODELS)
+         ======================================================== -->
+    <section class="cars-section section-padding" id="cars">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Featured Fleet</span>
+          <h2 class="section-title">Explore Our Premium Car Collection</h2>
+          <p class="section-description">Discover top-selling SUVs, rugged 4x4s, and sporty hatchbacks with verified sample specifications.</p>
+        </div>
+
+        <!-- Pure CSS Radio Filter Controls -->
+        <div class="filter-container">
+          <input type="radio" name="car_filter" id="filter-all" class="filter-radio" checked>
+          <input type="radio" name="car_filter" id="filter-suv" class="filter-radio">
+          <input type="radio" name="car_filter" id="filter-hatchback" class="filter-radio">
+          <input type="radio" name="car_filter" id="filter-luxury" class="filter-radio">
+
+          <div class="filter-tabs-bar">
+            <label for="filter-all" class="filter-btn filter-btn-all">All Models</label>
+            <label for="filter-suv" class="filter-btn filter-btn-suv">SUVs</label>
+            <label for="filter-hatchback" class="filter-btn filter-btn-hatchback">Hatchbacks</label>
+            <label for="filter-luxury" class="filter-btn filter-btn-luxury">Premium & 4x4</label>
+          </div>
+
+          <!-- Car Cards Grid -->
+          <div class="cars-grid" id="carsGrid">
+
+            <!-- 1. Tata Nexon -->
+            <article class="car-card card-suv" data-category="suv">
+              <div class="car-image-wrapper">
+                <span class="car-badge">Compact SUV</span>
+                <img src="images/tata-nexon.jpg" alt="Tata Nexon" class="car-img" loading="lazy">
+                <span class="safety-tag"><i class="fa-solid fa-star"></i> 5-Star BNCAP</span>
+              </div>
+              <div class="car-card-body">
+                <div class="car-title-row">
+                  <h3 class="car-name">Tata Nexon</h3>
+                  <span class="car-brand">Tata Motors</span>
+                </div>
+                <div class="car-price-row">
+                  <span class="price-label">Starting Price</span>
+                  <span class="price-val">₹ 8.15 Lakh<span class="price-star">*</span></span>
+                </div>
+                <div class="specs-grid">
+                  <div class="spec-item"><i class="fa-solid fa-gas-pump"></i><span>Petrol / Diesel</span></div>
+                  <div class="spec-item"><i class="fa-solid fa-gears"></i><span>Manual / AMT / DCA</span></div>
+                  <div class="spec-item"><i class="fa-solid fa-gauge"></i><span>17.4 - 24.0 km/l</span></div>
+                  <div class="spec-item"><i class="fa-solid fa-users"></i><span>5 Seater</span></div>
+                </div>
+                <div class="card-actions">
+                  <a href="#modal-nexon" class="btn btn-outline"><i class="fa-regular fa-eye"></i> View Details</a>
+                  <a href="#test-drive" class="btn btn-primary"><i class="fa-solid fa-key"></i> Book Test Drive</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- 2. Mahindra XUV700 -->
+            <article class="car-card card-suv card-luxury" data-category="suv luxury">
+              <div class="car-image-wrapper">
+                <span class="car-badge">Luxury 7-Seater</span>
+                <img src="images/mahindra-xuv700.jpg" alt="Mahindra XUV700" class="car-img" loading="lazy">
+                <span class="safety-tag"><i class="fa-solid fa-shield-halved"></i> ADAS Level 2</span>
+              </div>
+              <div class="car-card-body">
+                <div class="car-title-row">
+                  <h3 class="car-name">Mahindra XUV700</h3>
+                  <span class="car-brand">Mahindra</span>
+                </div>
+                <div class="car-price-row">
+                  <span class="price-label">Starting Price</span>
+                  <span class="price-val">₹ 13.99 Lakh<span class="price-star">*</span></span>
+                </div>
+                <div class="specs-grid">
+                  <div class="spec-item"><i class="fa-solid fa-gas-pump"></i><span>Turbo Petrol / Diesel</span></div>
+                  <div class="spec-item"><i class="fa-solid fa-gears"></i><span>Manual / 6-Speed AT</span></div>
+                  <div class="spec-item"><i class="fa-solid fa-gauge"></i><span>13.5 - 16.5 km/l</span></div>
+                  <div class="spec-item"><i class="fa-solid fa-users"></i><span>5 / 7 Seater</span></div>
+                </div>
+                <div class="card-actions">
+                  <a href="#modal-xuv700" class="btn btn-outline"><i class="fa-regular fa-eye"></i> View Details</a>
+                  <a href="#test-drive" class="btn btn-primary"><i class="fa-solid fa-key"></i> Book Test Drive</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- 3. Hyundai Creta -->
+            <article class="car-card card-suv" data-category="suv">
+              <div class="car-image-wrapper">
+                <span class="car-badge">Mid-Size SUV</span>
+                <img src="images/hyundai-creta.jpg" alt="Hyundai Creta" class="car-img" loading="lazy">
+                <span class="safety-tag"><i class="fa-solid fa-sun"></i> Panoramic Sunroof</span>
+              </div>
+              <div class="car-card-body">
+                <div class="car-title-row">
+                  <h3 class="car-name">Hyundai Creta</h3>
+                  <span class="car-brand">Hyundai</span>
+                </div>
+                <div class="car-price-row">
+                  <span class="price-label">Starting Price</span>
+                  <span class="price-val">₹ 11.00 Lakh<span class="price-star">*</span></span>
+                </div>
+                <div class="specs-grid">
+                  <div class="spec-item"><i class="fa-solid fa-gas-pump"></i><span>Petrol / Diesel / Turbo</span></div>
+                  <div class="spec-item"><i class="fa-solid fa-gears"></i><span>MT / IVT / 7-DCT</span></div>
+                  <div class="spec-item"><i class="fa-solid fa-gauge"></i><span>17.4 - 21.8 km/l</span></div>
+                  <div class="spec-item"><i class="fa-solid fa-users"></i><span>5 Seater</span></div>
+                </div>
+                <div class="card-actions">
+                  <a href="#modal-creta" class="btn btn-outline"><i class="fa-regular fa-eye"></i> View Details</a>
+                  <a href="#test-drive" class="btn btn-primary"><i class="fa-solid fa-key"></i> Book Test Drive</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- 4. Maruti Suzuki Swift -->
+            <article class="car-card card-hatchback" data-category="hatchback">
+              <div class="car-image-wrapper">
+                <span class="car-badge">Sporty Hatchback</span>
+                <img src="images/maruti-swift.jpg" alt="Maruti Suzuki Swift" class="car-img" loading="lazy">
+                <span class="safety-tag"><i class="fa-solid fa-bolt"></i> Z-Series Engine</span>
+              </div>
+              <div class="car-card-body">
+                <div class="car-title-row">
+                  <h3 class="car-name">Maruti Suzuki Swift</h3>
+                  <span class="car-brand">Maruti Suzuki</span>
+                </div>
+                <div class="car-price-row">
+                  <span class="price-label">Starting Price</span>
+                  <span class="price-val">₹ 6.49 Lakh<span class="price-star">*</span></span>
+                </div>
+                <div class="specs-grid">
+                  <div class="spec-item"><i class="fa-solid fa-gas-pump"></i><span>Petrol / CNG</span></div>
+                  <div class="spec-item"><i class="fa-solid fa-gears"></i><span>5-Speed Manual / AMT</span></div>
+                  <div class="spec-item"><i class="fa-solid fa-gauge"></i><span>24.8 - 25.7 km/l</span></div>
+                  <div class="spec-item"><i class="fa-solid fa-users"></i><span>5 Seater</span></div>
+                </div>
+                <div class="card-actions">
+                  <a href="#modal-swift" class="btn btn-outline"><i class="fa-regular fa-eye"></i> View Details</a>
+                  <a href="#test-drive" class="btn btn-primary"><i class="fa-solid fa-key"></i> Book Test Drive</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- 5. Toyota Fortuner -->
+            <article class="car-card card-suv card-luxury" data-category="suv luxury">
+              <div class="car-image-wrapper">
+                <span class="car-badge">Legendary 4x4</span>
+                <img src="images/toyota-fortuner.jpg" alt="Toyota Fortuner" class="car-img" loading="lazy">
+                <span class="safety-tag"><i class="fa-solid fa-mountain"></i> 4x4 Off-Road</span>
+              </div>
+              <div class="car-card-body">
+                <div class="car-title-row">
+                  <h3 class="car-name">Toyota Fortuner</h3>
+                  <span class="car-brand">Toyota</span>
+                </div>
+                <div class="car-price-row">
+                  <span class="price-label">Starting Price</span>
+                  <span class="price-val">₹ 33.43 Lakh<span class="price-star">*</span></span>
+                </div>
+                <div class="specs-grid">
+                  <div class="spec-item"><i class="fa-solid fa-gas-pump"></i><span>2.7L Petrol / 2.8L Diesel</span></div>
+                  <div class="spec-item"><i class="fa-solid fa-gears"></i><span>6-Speed MT / 6-Speed AT</span></div>
+                  <div class="spec-item"><i class="fa-solid fa-gauge"></i><span>10.2 - 14.4 km/l</span></div>
+                  <div class="spec-item"><i class="fa-solid fa-users"></i><span>7 Seater</span></div>
+                </div>
+                <div class="card-actions">
+                  <a href="#modal-fortuner" class="btn btn-outline"><i class="fa-regular fa-eye"></i> View Details</a>
+                  <a href="#test-drive" class="btn btn-primary"><i class="fa-solid fa-key"></i> Book Test Drive</a>
+                </div>
+              </div>
+            </article>
+
+            <!-- 6. Kia Seltos -->
+            <article class="car-card card-suv" data-category="suv">
+              <div class="car-image-wrapper">
+                <span class="car-badge">Tech-Loaded SUV</span>
+                <img src="images/kia-seltos.jpg" alt="Kia Seltos" class="car-img" loading="lazy">
+                <span class="safety-tag"><i class="fa-solid fa-display"></i> Dual 10.25" Screens</span>
+              </div>
+              <div class="car-card-body">
+                <div class="car-title-row">
+                  <h3 class="car-name">Kia Seltos</h3>
+                  <span class="car-brand">Kia Motors</span>
+                </div>
+                <div class="car-price-row">
+                  <span class="price-label">Starting Price</span>
+                  <span class="price-val">₹ 10.90 Lakh<span class="price-star">*</span></span>
+                </div>
+                <div class="specs-grid">
+                  <div class="spec-item"><i class="fa-solid fa-gas-pump"></i><span>Petrol / Turbo / Diesel</span></div>
+                  <div class="spec-item"><i class="fa-solid fa-gears"></i><span>Manual / iMT / IVT / DCT</span></div>
+                  <div class="spec-item"><i class="fa-solid fa-gauge"></i><span>17.0 - 20.7 km/l</span></div>
+                  <div class="spec-item"><i class="fa-solid fa-users"></i><span>5 Seater</span></div>
+                </div>
+                <div class="card-actions">
+                  <a href="#modal-seltos" class="btn btn-outline"><i class="fa-regular fa-eye"></i> View Details</a>
+                  <a href="#test-drive" class="btn btn-primary"><i class="fa-solid fa-key"></i> Book Test Drive</a>
+                </div>
+              </div>
+            </article>
+
+          </div>
+        </div>
+
+        <div class="disclaimer-note">
+          <i class="fa-solid fa-circle-info"></i>
+          <span>*Note: Prices mentioned are sample ex-showroom demonstration figures for educational and web development assignment purposes.</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         SECTION E: CAR FEATURES SECTION
+         ======================================================== -->
+    <section class="features-section section-padding" id="features">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Engineering Brilliance</span>
+          <h2 class="section-title">Built For The Modern Driving Connoisseur</h2>
+          <p class="section-description">Every vehicle in our showcase is handpicked for cutting-edge engineering, peerless comfort, and uncompromising road safety.</p>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature-box">
+            <div class="feature-icon"><i class="fa-solid fa-tachometer-alt"></i></div>
+            <h3 class="feature-title">Engine Performance</h3>
+            <p class="feature-desc">High-output turbocharged petrol and torquey diesel engines tuned for instant throttle response and effortless highway cruising.</p>
+          </div>
+          <div class="feature-box">
+            <div class="feature-icon"><i class="fa-solid fa-shield-halved"></i></div>
+            <h3 class="feature-title">5-Star Safety Standards</h3>
+            <p class="feature-desc">Reinforced high-tensile steel frames, 6 standard airbags, Electronic Stability Control (ESC), and ADAS active safety suite.</p>
+          </div>
+          <div class="feature-box">
+            <div class="feature-icon"><i class="fa-solid fa-couch"></i></div>
+            <h3 class="feature-title">Comfortable Interiors</h3>
+            <p class="feature-desc">Ergonomic ventilated leatherette seating, multi-zone automatic climate control, acoustic sound insulation, and whisper-quiet cabin.</p>
+          </div>
+          <div class="feature-box">
+            <div class="feature-icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
+            <h3 class="feature-title">Modern Infotainment</h3>
+            <p class="feature-desc">Curved dual HD displays, wireless Apple CarPlay & Android Auto, connected telematics with remote AC start, and immersive audio.</p>
+          </div>
+          <div class="feature-box">
+            <div class="feature-icon"><i class="fa-solid fa-leaf"></i></div>
+            <h3 class="feature-title">Class-Leading Efficiency</h3>
+            <p class="feature-desc">Advanced direct-injection, idle stop-start technology, and intelligent gearboxes engineered to maximize kilometers per liter.</p>
+          </div>
+          <div class="feature-box">
+            <div class="feature-icon"><i class="fa-solid fa-car-burst"></i></div>
+            <h3 class="feature-title">Stylish Exterior Design</h3>
+            <p class="feature-desc">Aerodynamic athletic silhouettes, jewel-patterned dark chrome grilles, sequential LED indicators, and diamond-cut alloy wheels.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         SECTION F: COMPARE CARS SECTION
+         ======================================================== -->
+    <section class="compare-section section-padding" id="compare">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Vehicle Comparison</span>
+          <h2 class="section-title">Compare Leading Car Models</h2>
+          <p class="section-description">Analyze specifications side-by-side to make the smart choice tailored to your driving requirements.</p>
+        </div>
+
+        <div class="table-responsive-wrapper">
+          <table class="comparison-table" id="comparisonTable">
+            <thead>
+              <tr>
+                <th class="spec-head-col">Specifications</th>
+                <th class="car-col">
+                  <div class="col-car-header">
+                    <img src="images/tata-nexon.jpg" alt="Tata Nexon" class="thumb-img">
+                    <h4>Tata Nexon</h4>
+                    <span class="table-badge">Compact SUV</span>
+                  </div>
+                </th>
+                <th class="car-col featured-compare-col">
+                  <div class="col-car-header">
+                    <div class="best-pick-pill">Most Popular</div>
+                    <img src="images/hyundai-creta.jpg" alt="Hyundai Creta" class="thumb-img">
+                    <h4>Hyundai Creta</h4>
+                    <span class="table-badge">Mid-Size SUV</span>
+                  </div>
+                </th>
+                <th class="car-col">
+                  <div class="col-car-header">
+                    <img src="images/mahindra-xuv700.jpg" alt="Mahindra XUV700" class="thumb-img">
+                    <h4>Mahindra XUV700</h4>
+                    <span class="table-badge">Premium 7-Seater</span>
+                  </div>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="feature-name"><i class="fa-solid fa-tag"></i> Starting Price</td>
+                <td class="val-highlight">₹ 8.15 Lakh*</td>
+                <td class="val-highlight featured-cell">₹ 11.00 Lakh*</td>
+                <td class="val-highlight">₹ 13.99 Lakh*</td>
+              </tr>
+              <tr>
+                <td class="feature-name"><i class="fa-solid fa-gas-pump"></i> Fuel Options</td>
+                <td>1.2L Turbo Petrol / 1.5L Diesel</td>
+                <td class="featured-cell">1.5L Petrol / 1.5L Diesel / Turbo</td>
+                <td>2.0L Turbo Petrol / 2.2L mHawk Diesel</td>
+              </tr>
+              <tr>
+                <td class="feature-name"><i class="fa-solid fa-gears"></i> Transmission</td>
+                <td>6-MT / AMT / 7-Speed DCA</td>
+                <td class="featured-cell">6-MT / IVT / 7-Speed DCT</td>
+                <td>6-Speed MT / 6-Speed Torque Converter</td>
+              </tr>
+              <tr>
+                <td class="feature-name"><i class="fa-solid fa-users"></i> Seating Capacity</td>
+                <td>5 Passenger</td>
+                <td class="featured-cell">5 Passenger</td>
+                <td>5 or 7 Passenger Options</td>
+              </tr>
+              <tr>
+                <td class="feature-name"><i class="fa-solid fa-gauge"></i> Fuel Economy</td>
+                <td>17.4 - 24.0 km/l</td>
+                <td class="featured-cell">17.4 - 21.8 km/l</td>
+                <td>13.5 - 16.5 km/l</td>
+              </tr>
+              <tr>
+                <td class="feature-name"><i class="fa-solid fa-shield-halved"></i> Safety Rating</td>
+                <td><span class="badge-pill green">5-Star BNCAP</span></td>
+                <td class="featured-cell"><span class="badge-pill blue">Level 2 ADAS</span></td>
+                <td><span class="badge-pill green">5-Star GNCAP + ADAS</span></td>
+              </tr>
+              <tr>
+                <td class="feature-name"><i class="fa-solid fa-star"></i> Key Highlights</td>
+                <td>LED Headlamps, 360° Camera, Harman Sound</td>
+                <td class="featured-cell">Panoramic Sunroof, Ventilated Seats</td>
+                <td>Dual 10.25" Superscreen, Sony 3D Sound</td>
+              </tr>
+              <tr>
+                <td class="feature-name"><i class="fa-solid fa-calendar-check"></i> Action</td>
+                <td><a href="#test-drive" class="btn btn-outline btn-sm">Test Drive Nexon</a></td>
+                <td class="featured-cell"><a href="#test-drive" class="btn btn-primary btn-sm">Test Drive Creta</a></td>
+                <td><a href="#test-drive" class="btn btn-outline btn-sm">Test Drive XUV700</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         SECTION G: SPECIAL OFFERS SECTION
+         ======================================================== -->
+    <section class="offers-section section-padding" id="offers">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Limited Period Benefits</span>
+          <h2 class="section-title">DriveX Exclusive Promotions</h2>
+          <p class="section-description">Celebrate the season with handcrafted ownership privileges and demo savings.</p>
+        </div>
+
+        <div class="offers-grid">
+          <div class="offer-card">
+            <div class="offer-ribbon">Save ₹50,000</div>
+            <div class="offer-icon"><i class="fa-solid fa-recycle"></i></div>
+            <h3 class="offer-title">Mega Exchange Bonus</h3>
+            <p class="offer-desc">Upgrade your current vehicle and receive an instant guaranteed evaluation bonus of up to ₹50,000*.</p>
+            <ul class="offer-perks">
+              <li><i class="fa-solid fa-check"></i> Doorstep evaluation</li>
+              <li><i class="fa-solid fa-check"></i> Zero paperwork fee</li>
+            </ul>
+            <a href="#test-drive" class="btn btn-outline btn-block">Claim Demo Offer</a>
+          </div>
+
+          <div class="offer-card featured-offer">
+            <div class="offer-ribbon highlight-ribbon">Festive Special</div>
+            <div class="offer-icon"><i class="fa-solid fa-gift"></i></div>
+            <h3 class="offer-title">Festive Season Bonanza</h3>
+            <p class="offer-desc">Kickstart celebrations with special introductory financing rates starting at 7.99% and zero processing fee*.</p>
+            <ul class="offer-perks">
+              <li><i class="fa-solid fa-check"></i> Up to 100% on-road funding</li>
+              <li><i class="fa-solid fa-check"></i> Fast-track approval</li>
+            </ul>
+            <a href="#test-drive" class="btn btn-primary btn-block">Claim Demo Offer</a>
+          </div>
+
+          <div class="offer-card">
+            <div class="offer-ribbon">Worth ₹25,000</div>
+            <div class="offer-icon"><i class="fa-solid fa-toolbox"></i></div>
+            <h3 class="offer-title">Signature Styling Kit</h3>
+            <p class="offer-desc">Enjoy a complimentary OEM styling accessories package containing 7D mats, chrome embellishments & dashcam*.</p>
+            <ul class="offer-perks">
+              <li><i class="fa-solid fa-check"></i> Genuine warranty</li>
+              <li><i class="fa-solid fa-check"></i> In-house fitment included</li>
+            </ul>
+            <a href="#test-drive" class="btn btn-outline btn-block">Claim Demo Offer</a>
+          </div>
+
+          <div class="offer-card">
+            <div class="offer-ribbon">VIP Access</div>
+            <div class="offer-icon"><i class="fa-solid fa-route"></i></div>
+            <h3 class="offer-title">Doorstep VIP Test Drive</h3>
+            <p class="offer-desc">Experience your chosen vehicle on your home or office commute route with an automotive specialist delivered to your door.</p>
+            <ul class="offer-perks">
+              <li><i class="fa-solid fa-check"></i> 45-minute drive slot</li>
+              <li><i class="fa-solid fa-check"></i> Sanitized test vehicle</li>
+            </ul>
+            <a href="#test-drive" class="btn btn-outline btn-block">Book VIP Demo</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         SECTION H: TEST DRIVE BOOKING (Pure HTML5 Form Validation)
+         ======================================================== -->
+    <section class="test-drive-section section-padding" id="test-drive">
+      <div class="container">
+        <div class="booking-wrapper">
+          <div class="booking-info-panel">
+            <span class="section-tag">Experience The Thrill</span>
+            <h2 class="section-title">Schedule Your Priority Test Drive</h2>
+            <p class="booking-info-text">Feel the road presence, acceleration, and luxury cockpit comfort for yourself. Select your car model and lock in your slot.</p>
+
+            <div class="booking-features-list">
+              <div class="bf-item">
+                <div class="bf-icon"><i class="fa-solid fa-shield-virus"></i></div>
+                <div><h4>Sanitized Fleet</h4><p>Cleaned and inspected before every drive session.</p></div>
+              </div>
+              <div class="bf-item">
+                <div class="bf-icon"><i class="fa-solid fa-user-tie"></i></div>
+                <div><h4>Product Specialist</h4><p>Co-pilot available to explain all features & tech.</p></div>
+              </div>
+              <div class="bf-item">
+                <div class="bf-icon"><i class="fa-solid fa-house-laptop"></i></div>
+                <div><h4>Showroom or Home</h4><p>Choose to drive from our showroom or your residence.</p></div>
+              </div>
+            </div>
+
+            <div class="demo-box">
+              <i class="fa-solid fa-laptop-code"></i>
+              <div>
+                <strong>Pure HTML5 & CSS3 Form</strong>
+                <p>Validates inputs via standard HTML5 validation attributes and navigates to the simulated confirmation state on submit without JavaScript.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Form Card -->
+          <div class="booking-form-card">
+            <div class="form-header">
+              <h3 class="form-title">Test Drive Request</h3>
+              <p class="form-subtitle">Fill out the form below to lock in your preferred schedule.</p>
+            </div>
+
+            <!-- Form triggers #booking-success CSS target modal on valid submit -->
+            <form action="#booking-success" method="GET" class="test-drive-form">
+              <!-- Full Name -->
+              <div class="form-group">
+                <label for="fullName" class="form-label"><i class="fa-solid fa-user"></i> Full Name <span class="required">*</span></label>
+                <input type="text" id="fullName" name="fullName" class="form-control" placeholder="e.g. Rahul Sharma" required minlength="3">
+              </div>
+
+              <!-- Email -->
+              <div class="form-group">
+                <label for="email" class="form-label"><i class="fa-solid fa-envelope"></i> Email Address <span class="required">*</span></label>
+                <input type="email" id="email" name="email" class="form-control" placeholder="e.g. rahul.sharma@example.com" required>
+              </div>
+
+              <!-- Phone (10 digits Indian format) -->
+              <div class="form-group">
+                <label for="phone" class="form-label"><i class="fa-solid fa-phone"></i> Phone Number <span class="required">*</span></label>
+                <div class="phone-input-group">
+                  <span class="country-code">+91</span>
+                  <input type="tel" id="phone" name="phone" class="form-control" placeholder="9876543210" pattern="[6-9][0-9]{9}" title="Please enter a valid 10-digit Indian phone number" maxlength="10" required>
+                </div>
+              </div>
+
+              <!-- Car Model Selection -->
+              <div class="form-group">
+                <label for="carModel" class="form-label"><i class="fa-solid fa-car"></i> Select Car Model <span class="required">*</span></label>
+                <select id="carModel" name="carModel" class="form-control form-select" required>
+                  <option value="" disabled selected>-- Choose your vehicle --</option>
+                  <option value="Tata Nexon">Tata Nexon (Compact SUV - 5 Star BNCAP)</option>
+                  <option value="Mahindra XUV700">Mahindra XUV700 (Premium 7-Seater ADAS)</option>
+                  <option value="Hyundai Creta">Hyundai Creta (Mid-Size SUV Sunroof)</option>
+                  <option value="Maruti Suzuki Swift">Maruti Suzuki Swift (Sporty Hatchback)</option>
+                  <option value="Toyota Fortuner">Toyota Fortuner (Legendary 4x4 Off-Roader)</option>
+                  <option value="Kia Seltos">Kia Seltos (Tech-Loaded Smart SUV)</option>
+                </select>
+              </div>
+
+              <!-- Date & Time Row -->
+              <div class="form-row">
+                <div class="form-group col-half">
+                  <label for="prefDate" class="form-label"><i class="fa-solid fa-calendar-day"></i> Preferred Date <span class="required">*</span></label>
+                  <input type="date" id="prefDate" name="prefDate" class="form-control" min="2026-11-24" value="2026-11-25" required>
+                </div>
+                <div class="form-group col-half">
+                  <label for="prefTime" class="form-label"><i class="fa-solid fa-clock"></i> Preferred Time <span class="required">*</span></label>
+                  <select id="prefTime" name="prefTime" class="form-control form-select" required>
+                    <option value="" disabled selected>-- Select time slot --</option>
+                    <option value="10:00 AM - 11:30 AM">10:00 AM - 11:30 AM (Morning)</option>
+                    <option value="12:00 PM - 01:30 PM">12:00 PM - 01:30 PM (Noon)</option>
+                    <option value="02:30 PM - 04:00 PM">02:30 PM - 04:00 PM (Afternoon)</option>
+                    <option value="04:30 PM - 06:00 PM">04:30 PM - 06:00 PM (Evening)</option>
+                    <option value="06:30 PM - 08:00 PM">06:30 PM - 08:00 PM (Twilight)</option>
+                  </select>
+                </div>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block submit-btn" id="submitBtn">
+                <span>Submit Request</span> <i class="fa-solid fa-paper-plane"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         SECTION I: CONTACT SECTION
+         ======================================================== -->
+    <section class="contact-section section-padding" id="contact">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Get In Touch</span>
+          <h2 class="section-title">Visit Our Experience Centre</h2>
+          <p class="section-description">Step into DriveX to see our signature showroom lineup in person or consult with certified automotive experts.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-cards-col">
+            <div class="contact-card">
+              <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div class="contact-details">
+                <h4>Showroom Address</h4>
+                <p><strong>DriveX Signature Auto Hub</strong></p>
+                <p>Plot 42, Tech Innovation Corridor, Outer Ring Road, Bengaluru, Karnataka - 560103, India</p>
+                <span class="contact-subtext">(Sample demonstration showroom address)</span>
+              </div>
+            </div>
+            <div class="contact-card">
+              <div class="contact-icon"><i class="fa-solid fa-phone-volume"></i></div>
+              <div class="contact-details">
+                <h4>Phone Number</h4>
+                <p><a href="tel:+919876543210">+91 98765 43210 (Sales & Inquiry)</a></p>
+                <p><a href="tel:+918041234567">+91 80 4123 4567 (Customer Care)</a></p>
+                <span class="contact-subtext">(Demonstration phone placeholders)</span>
+              </div>
+            </div>
+            <div class="contact-card">
+              <div class="contact-icon"><i class="fa-solid fa-envelope-open-text"></i></div>
+              <div class="contact-details">
+                <h4>Email Address</h4>
+                <p><a href="mailto:contact@drivex-cars.demo">contact@drivex-cars.demo</a></p>
+                <p><a href="mailto:support@drivex-cars.demo">support@drivex-cars.demo</a></p>
+                <span class="contact-subtext">(Demonstration email placeholders)</span>
+              </div>
+            </div>
+            <div class="contact-card">
+              <div class="contact-icon"><i class="fa-solid fa-clock"></i></div>
+              <div class="contact-details">
+                <h4>Opening Hours</h4>
+                <p><strong>Monday – Saturday:</strong> 9:00 AM – 8:00 PM</p>
+                <p><strong>Sunday:</strong> 10:00 AM – 5:00 PM</p>
+                <span class="contact-subtext">Open on all national holidays with prior booking</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interactive Map Mock -->
+          <div class="contact-interactive-col">
+            <div class="map-mock-card">
+              <div class="map-visual">
+                <div class="map-pin-pulse">
+                  <div class="pulse-ring"></div>
+                  <i class="fa-solid fa-car-rear map-pin-icon"></i>
+                </div>
+                <div class="map-info-badge">
+                  <strong>DriveX Signature Lounge</strong>
+                  <span>Outer Ring Road, Bengaluru</span>
+                </div>
+              </div>
+              <div class="map-card-footer">
+                <div>
+                  <h4>Directions & Valet Parking</h4>
+                  <p>Complimentary covered customer valet parking available on site.</p>
+                </div>
+                <a href="#test-drive" class="btn btn-primary btn-sm"><i class="fa-solid fa-location-arrow"></i> Book Visit</a>
+              </div>
+            </div>
+
+            <!-- Social Links -->
+            <div class="social-connect-box">
+              <h4>Connect On Social Media</h4>
+              <p>Follow our garage reels, delivery ceremonies, and owner stories:</p>
+              <div class="social-icons-row">
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://x.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================
+       SECTION J: FOOTER
+       ======================================================== -->
+  <footer class="site-footer">
+    <div class="container footer-top">
+      <div class="footer-grid">
+        <div class="footer-col brand-col">
+          <a href="#home" class="logo">
+            <span class="logo-icon"><i class="fa-solid fa-gauge-high"></i></span>
+            <span class="logo-text">Drive<span class="logo-accent">X</span></span>
+          </a>
+          <p class="footer-about">DriveX Premium Car Showroom is dedicated to connecting passionate drivers with premier automobiles across India. Built for automotive elegance, trusted service, and supreme performance.</p>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-heading">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#home"><i class="fa-solid fa-chevron-right"></i> Home</a></li>
+            <li><a href="#about"><i class="fa-solid fa-chevron-right"></i> About Showroom</a></li>
+            <li><a href="#cars"><i class="fa-solid fa-chevron-right"></i> Featured Cars</a></li>
+            <li><a href="#features"><i class="fa-solid fa-chevron-right"></i> Key Features</a></li>
+            <li><a href="#compare"><i class="fa-solid fa-chevron-right"></i> Compare Cars</a></li>
+            <li><a href="#offers"><i class="fa-solid fa-chevron-right"></i> Special Offers</a></li>
+            <li><a href="#test-drive"><i class="fa-solid fa-chevron-right"></i> Book Test Drive</a></li>
+            <li><a href="#contact"><i class="fa-solid fa-chevron-right"></i> Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-heading">Showcase Fleet</h4>
+          <ul class="footer-links">
+            <li><a href="#modal-nexon" class="footer-car-link"><i class="fa-solid fa-chevron-right"></i> Tata Nexon</a></li>
+            <li><a href="#modal-xuv700" class="footer-car-link"><i class="fa-solid fa-chevron-right"></i> Mahindra XUV700</a></li>
+            <li><a href="#modal-creta" class="footer-car-link"><i class="fa-solid fa-chevron-right"></i> Hyundai Creta</a></li>
+            <li><a href="#modal-swift" class="footer-car-link"><i class="fa-solid fa-chevron-right"></i> Maruti Suzuki Swift</a></li>
+            <li><a href="#modal-fortuner" class="footer-car-link"><i class="fa-solid fa-chevron-right"></i> Toyota Fortuner</a></li>
+            <li><a href="#modal-seltos" class="footer-car-link"><i class="fa-solid fa-chevron-right"></i> Kia Seltos</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-heading">VIP Newsletter</h4>
+          <p class="footer-newsletter-text">Subscribe for upcoming vehicle launches and special demonstration promotions:</p>
+          <form class="newsletter-form" action="#home" method="GET">
+            <div class="newsletter-input-wrap">
+              <input type="email" placeholder="Enter your email" required class="newsletter-input" aria-label="Email">
+              <button type="submit" class="btn btn-primary btn-newsletter"><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+          </form>
+          <div class="project-credit-tag">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <span>College Web Development Assignment Submission (Pure HTML5 & CSS3)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p class="copyright-text">&copy; 2026 <strong>DriveX – Premium Car Showroom</strong>. All rights reserved. Created for educational purposes.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================
+       PURE CSS MODALS (Triggered via :target - NO JavaScript)
+       ======================================================== -->
+
+  <!-- Modal 1: Tata Nexon -->
+  <div class="modal-overlay" id="modal-nexon" role="dialog">
+    <div class="modal-container">
+      <a href="#cars" class="modal-close-btn" aria-label="Close modal"><i class="fa-solid fa-xmark"></i></a>
+      <div class="modal-header-visual">
+        <img src="images/tata-nexon.jpg" alt="Tata Nexon">
+        <div class="modal-header-gradient"></div>
+      </div>
+      <div class="modal-body">
+        <div class="modal-header-row">
+          <h3 class="modal-car-title">Tata Nexon</h3>
+          <span class="modal-badge">Compact SUV</span>
+        </div>
+        <div class="modal-car-price">₹ 8.15 Lakh* <span class="ex-label">(Ex-Showroom Demo)</span></div>
+        <table class="modal-specs-table">
+          <tbody>
+            <tr><td>Engine & Fuel</td><td>1.2L Turbocharged Revotron Petrol / 1.5L Revotorq Diesel</td></tr>
+            <tr><td>Maximum Power</td><td>120 PS @ 5500 RPM</td></tr>
+            <tr><td>Peak Torque</td><td>170 Nm (Petrol) / 260 Nm (Diesel)</td></tr>
+            <tr><td>Transmission</td><td>6-Speed MT / 6-Speed AMT / 7-Speed Dual Clutch (DCA)</td></tr>
+            <tr><td>Mileage</td><td>17.44 - 24.08 km/l</td></tr>
+            <tr><td>Seating Capacity</td><td>5 Passengers</td></tr>
+            <tr><td>Ground Clearance</td><td>208 mm</td></tr>
+            <tr><td>Boot Space</td><td>382 Liters</td></tr>
+            <tr><td>Safety Rating</td><td><strong>5-Star BNCAP Rating, 6 Airbags Standard, ESP</strong></td></tr>
+            <tr><td>Signature Tech</td><td>10.25-inch Touchscreen, JBL Audio, Ventilated Seats</td></tr>
+          </tbody>
+        </table>
+        <a href="#test-drive" class="btn btn-primary btn-block"><i class="fa-solid fa-key"></i> Book Priority Test Drive For Tata Nexon</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 2: Mahindra XUV700 -->
+  <div class="modal-overlay" id="modal-xuv700" role="dialog">
+    <div class="modal-container">
+      <a href="#cars" class="modal-close-btn" aria-label="Close modal"><i class="fa-solid fa-xmark"></i></a>
+      <div class="modal-header-visual">
+        <img src="images/mahindra-xuv700.jpg" alt="Mahindra XUV700">
+        <div class="modal-header-gradient"></div>
+      </div>
+      <div class="modal-body">
+        <div class="modal-header-row">
+          <h3 class="modal-car-title">Mahindra XUV700</h3>
+          <span class="modal-badge">Premium 7-Seater</span>
+        </div>
+        <div class="modal-car-price">₹ 13.99 Lakh* <span class="ex-label">(Ex-Showroom Demo)</span></div>
+        <table class="modal-specs-table">
+          <tbody>
+            <tr><td>Engine & Fuel</td><td>2.0L mStallion Turbo Petrol / 2.2L mHawk Turbo Diesel</td></tr>
+            <tr><td>Maximum Power</td><td>200 PS @ 5000 RPM (Petrol) / 185 PS (Diesel)</td></tr>
+            <tr><td>Peak Torque</td><td>380 Nm (Petrol) / 450 Nm (Diesel AT)</td></tr>
+            <tr><td>Transmission</td><td>6-Speed Manual / 6-Speed Torque Converter AT (AWD option)</td></tr>
+            <tr><td>Mileage</td><td>13.5 - 16.5 km/l</td></tr>
+            <tr><td>Seating Capacity</td><td>5 or 7 Passengers</td></tr>
+            <tr><td>Ground Clearance</td><td>200 mm</td></tr>
+            <tr><td>Boot Space</td><td>Up to 450 Liters</td></tr>
+            <tr><td>Safety Rating</td><td><strong>5-Star Global NCAP, Level 2 ADAS, 7 Airbags</strong></td></tr>
+            <tr><td>Signature Tech</td><td>Dual 10.25" Floating Displays, Panoramic Skyroof, Sony 3D Sound</td></tr>
+          </tbody>
+        </table>
+        <a href="#test-drive" class="btn btn-primary btn-block"><i class="fa-solid fa-key"></i> Book Priority Test Drive For Mahindra XUV700</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 3: Hyundai Creta -->
+  <div class="modal-overlay" id="modal-creta" role="dialog">
+    <div class="modal-container">
+      <a href="#cars" class="modal-close-btn" aria-label="Close modal"><i class="fa-solid fa-xmark"></i></a>
+      <div class="modal-header-visual">
+        <img src="images/hyundai-creta.jpg" alt="Hyundai Creta">
+        <div class="modal-header-gradient"></div>
+      </div>
+      <div class="modal-body">
+        <div class="modal-header-row">
+          <h3 class="modal-car-title">Hyundai Creta</h3>
+          <span class="modal-badge">Mid-Size SUV</span>
+        </div>
+        <div class="modal-car-price">₹ 11.00 Lakh* <span class="ex-label">(Ex-Showroom Demo)</span></div>
+        <table class="modal-specs-table">
+          <tbody>
+            <tr><td>Engine & Fuel</td><td>1.5L MPi Petrol / 1.5L U2 CRDi Diesel / 1.5L Turbo GDi</td></tr>
+            <tr><td>Maximum Power</td><td>115 PS (Petrol) / 160 PS (Turbo GDi)</td></tr>
+            <tr><td>Peak Torque</td><td>144 Nm (Petrol) / 253 Nm (Turbo GDi)</td></tr>
+            <tr><td>Transmission</td><td>6-Speed MT / Intelligent Variable (IVT) / 7-Speed DCT</td></tr>
+            <tr><td>Mileage</td><td>17.4 - 21.8 km/l</td></tr>
+            <tr><td>Seating Capacity</td><td>5 Passengers</td></tr>
+            <tr><td>Ground Clearance</td><td>190 mm</td></tr>
+            <tr><td>Boot Space</td><td>433 Liters</td></tr>
+            <tr><td>Safety Rating</td><td><strong>Level 2 ADAS (19 Safety Features), 6 Airbags Standard</strong></td></tr>
+            <tr><td>Signature Tech</td><td>Panoramic Sunroof, Dual-Zone Climate Control, Bose Audio</td></tr>
+          </tbody>
+        </table>
+        <a href="#test-drive" class="btn btn-primary btn-block"><i class="fa-solid fa-key"></i> Book Priority Test Drive For Hyundai Creta</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 4: Maruti Suzuki Swift -->
+  <div class="modal-overlay" id="modal-swift" role="dialog">
+    <div class="modal-container">
+      <a href="#cars" class="modal-close-btn" aria-label="Close modal"><i class="fa-solid fa-xmark"></i></a>
+      <div class="modal-header-visual">
+        <img src="images/maruti-swift.jpg" alt="Maruti Suzuki Swift">
+        <div class="modal-header-gradient"></div>
+      </div>
+      <div class="modal-body">
+        <div class="modal-header-row">
+          <h3 class="modal-car-title">Maruti Suzuki Swift</h3>
+          <span class="modal-badge">Sporty Hatchback</span>
+        </div>
+        <div class="modal-car-price">₹ 6.49 Lakh* <span class="ex-label">(Ex-Showroom Demo)</span></div>
+        <table class="modal-specs-table">
+          <tbody>
+            <tr><td>Engine & Fuel</td><td>1.2L Z-Series 3-Cylinder Dual VVT Petrol / Factory S-CNG</td></tr>
+            <tr><td>Maximum Power</td><td>82 PS @ 5700 RPM</td></tr>
+            <tr><td>Peak Torque</td><td>112 Nm @ 4300 RPM</td></tr>
+            <tr><td>Transmission</td><td>5-Speed Manual / 5-Speed AMT (AGS)</td></tr>
+            <tr><td>Mileage</td><td>24.8 - 25.75 km/l</td></tr>
+            <tr><td>Seating Capacity</td><td>5 Passengers</td></tr>
+            <tr><td>Ground Clearance</td><td>163 mm</td></tr>
+            <tr><td>Boot Space</td><td>265 Liters</td></tr>
+            <tr><td>Safety Rating</td><td><strong>6 Airbags Standard, ESP, Hill Start Assist</strong></td></tr>
+            <tr><td>Signature Tech</td><td>9" SmartPlay Pro+ Touchscreen, Arkamys Surround Sound</td></tr>
+          </tbody>
+        </table>
+        <a href="#test-drive" class="btn btn-primary btn-block"><i class="fa-solid fa-key"></i> Book Priority Test Drive For Maruti Swift</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 5: Toyota Fortuner -->
+  <div class="modal-overlay" id="modal-fortuner" role="dialog">
+    <div class="modal-container">
+      <a href="#cars" class="modal-close-btn" aria-label="Close modal"><i class="fa-solid fa-xmark"></i></a>
+      <div class="modal-header-visual">
+        <img src="images/toyota-fortuner.jpg" alt="Toyota Fortuner">
+        <div class="modal-header-gradient"></div>
+      </div>
+      <div class="modal-body">
+        <div class="modal-header-row">
+          <h3 class="modal-car-title">Toyota Fortuner</h3>
+          <span class="modal-badge">Legendary 4x4</span>
+        </div>
+        <div class="modal-car-price">₹ 33.43 Lakh* <span class="ex-label">(Ex-Showroom Demo)</span></div>
+        <table class="modal-specs-table">
+          <tbody>
+            <tr><td>Engine & Fuel</td><td>2.7L Dual VVT-i Petrol / 2.8L Turbocharged Diesel</td></tr>
+            <tr><td>Maximum Power</td><td>166 PS (Petrol) / 204 PS (Diesel)</td></tr>
+            <tr><td>Peak Torque</td><td>245 Nm (Petrol) / 500 Nm (Diesel AT)</td></tr>
+            <tr><td>Transmission</td><td>6-Speed MT / 6-Speed Sequential AT with Paddle Shifters (4x2 / 4x4)</td></tr>
+            <tr><td>Mileage</td><td>10.2 - 14.4 km/l</td></tr>
+            <tr><td>Seating Capacity</td><td>7 Passengers</td></tr>
+            <tr><td>Ground Clearance</td><td>225 mm</td></tr>
+            <tr><td>Boot Space</td><td>296 Liters (Expandable to 710L)</td></tr>
+            <tr><td>Safety Rating</td><td><strong>7 Airbags, Vehicle Stability Control, Downhill Assist Control</strong></td></tr>
+            <tr><td>Signature Tech</td><td>High/Low Range 4x4 Electronic Lock, Ventilated Seats, JBL Sound</td></tr>
+          </tbody>
+        </table>
+        <a href="#test-drive" class="btn btn-primary btn-block"><i class="fa-solid fa-key"></i> Book Priority Test Drive For Toyota Fortuner</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 6: Kia Seltos -->
+  <div class="modal-overlay" id="modal-seltos" role="dialog">
+    <div class="modal-container">
+      <a href="#cars" class="modal-close-btn" aria-label="Close modal"><i class="fa-solid fa-xmark"></i></a>
+      <div class="modal-header-visual">
+        <img src="images/kia-seltos.jpg" alt="Kia Seltos">
+        <div class="modal-header-gradient"></div>
+      </div>
+      <div class="modal-body">
+        <div class="modal-header-row">
+          <h3 class="modal-car-title">Kia Seltos</h3>
+          <span class="modal-badge">Tech-Loaded SUV</span>
+        </div>
+        <div class="modal-car-price">₹ 10.90 Lakh* <span class="ex-label">(Ex-Showroom Demo)</span></div>
+        <table class="modal-specs-table">
+          <tbody>
+            <tr><td>Engine & Fuel</td><td>1.5L Smartstream Petrol / 1.5L CRDi VGT Diesel / 1.5L Turbo GDi</td></tr>
+            <tr><td>Maximum Power</td><td>115 PS (Petrol) / 160 PS (Turbo GDi)</td></tr>
+            <tr><td>Peak Torque</td><td>144 Nm (Petrol) / 253 Nm (Turbo GDi)</td></tr>
+            <tr><td>Transmission</td><td>6-MT / 6-iMT / IVT / 7-DCT / 6-AT</td></tr>
+            <tr><td>Mileage</td><td>17.0 - 20.7 km/l</td></tr>
+            <tr><td>Seating Capacity</td><td>5 Passengers</td></tr>
+            <tr><td>Ground Clearance</td><td>190 mm</td></tr>
+            <tr><td>Boot Space</td><td>433 Liters</td></tr>
+            <tr><td>Safety Rating</td><td><strong>Level 2 ADAS with 17 Autonomous Features, 6 Airbags Standard</strong></td></tr>
+            <tr><td>Signature Tech</td><td>Dual 10.25" Panoramic Curved Displays, Head-Up Display</td></tr>
+          </tbody>
+        </table>
+        <a href="#test-drive" class="btn btn-primary btn-block"><i class="fa-solid fa-key"></i> Book Priority Test Drive For Kia Seltos</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 7: Booking Confirmation Receipt (Triggered upon form submit) -->
+  <div class="modal-overlay" id="booking-success" role="dialog">
+    <div class="modal-container confirm-modal-container">
+      <a href="#test-drive" class="modal-close-btn" aria-label="Close confirmation"><i class="fa-solid fa-xmark"></i></a>
+      <div class="confirm-content text-center">
+        <div class="confirm-icon-box"><i class="fa-solid fa-check"></i></div>
+        <h3 class="confirm-title">Test Drive Request Confirmed!</h3>
+        <p class="confirm-desc">Thank you! Your test drive demonstration request has been successfully recorded.</p>
+        <div class="booking-receipt-card">
+          <div class="receipt-row"><span>Status:</span><strong style="color:#10b981;">Confirmed (Demonstration)</strong></div>
+          <div class="receipt-row"><span>Showroom:</span><strong>DriveX Signature Auto Hub</strong></div>
+          <div class="receipt-row"><span>Location:</span><strong>Outer Ring Road, Bengaluru</strong></div>
+          <div class="receipt-row"><span>Booking Mode:</span><strong>Priority Showroom Slot</strong></div>
+          <div class="receipt-row"><span>Assignment Tech:</span><strong>Pure HTML5 & CSS3 Verified</strong></div>
+        </div>
+        <div class="confirm-note">
+          <i class="fa-solid fa-circle-info"></i>
+          <span>This confirmation was triggered purely through HTML5 Form Actions and CSS3 :target pseudo-class (Zero JavaScript).</span>
+        </div>
+        <a href="#cars" class="btn btn-primary btn-block">Done & Explore More Cars</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating Back to Top Button (Pure HTML5 & CSS3) -->
+  <a href="#home" class="back-to-top" aria-label="Back to top of page"><i class="fa-solid fa-arrow-up"></i></a>
+
+</body>
+</html>
